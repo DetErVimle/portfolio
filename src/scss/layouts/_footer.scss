@@ -1,0 +1,28 @@
+// footer
+.v-footer {
+  background: $black !important;
+
+  .theme--light.v-btn.v-btn--icon {
+    color: white;
+  }
+
+  .v-card__text {
+    background-color: black;
+  }
+
+  .theme--light.v-card > .v-card__text, .theme--light.v-card .v-card__subtitle {
+    color: $white;
+  }
+
+  .v-card__text {
+    @media only screen and (max-width: 599px) { 
+      padding: 16px 0;
+    }
+
+    .v-btn {
+      @media only screen and (max-width: 599px) { 
+        margin: 0 7px !important;
+      }
+    }
+  }
+}
